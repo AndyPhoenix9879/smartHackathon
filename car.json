@@ -1,0 +1,67 @@
+{
+    "cars": [
+        {
+            "user_name": "",
+            "police_number": "",
+            "airbag_open": false,
+            "is_squiggly": true,
+            "time": "26th October, 2019 - 23:08",
+            "x_coordinate": 0,
+            "y_coordinate": 0
+        },
+        {
+            "user_name": "",
+            "police_number": "",
+            "airbag_open": false,
+            "is_squiggly": true,
+            "time": "26th October, 2019 - 23:09",
+            "x_coordinate": 0,
+            "y_coordinate": 0
+        },
+        {
+            "user_name": "",
+            "police_number": "",
+            "airbag_open": false,
+            "is_squiggly": true,
+            "time": "26th October, 2019 - 23:09",
+            "x_coordinate": 0,
+            "y_coordinate": 0
+        },
+        {
+            "user_name": "",
+            "police_number": "",
+            "airbag_open": false,
+            "is_squiggly": true,
+            "time": "26th October, 2019 - 23:11",
+            "x_coordinate": 0,
+            "y_coordinate": 0
+        },
+        {
+            "user_name": "",
+            "police_number": "",
+            "airbag_open": false,
+            "is_squiggly": true,
+            "time": "27th October, 2019 - 00:30",
+            "x_coordinate": 0,
+            "y_coordinate": 0
+        },
+        {
+            "user_name": "",
+            "police_number": "",
+            "airbag_open": false,
+            "is_squiggly": true,
+            "time": "27th October, 2019 - 00:30",
+            "x_coordinate": 0,
+            "y_coordinate": 0
+        },
+        {
+            "user_name": "",
+            "police_number": "",
+            "airbag_open": false,
+            "is_squiggly": true,
+            "time": "27th October, 2019 - 02:39",
+            "x_coordinate": 0,
+            "y_coordinate": 0
+        }
+    ]
+}

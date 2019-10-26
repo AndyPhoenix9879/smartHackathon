@@ -18,6 +18,7 @@ def generate_json(data):
 
 def is_crashed(Car):
     time = datetime.datetime.now()
+    time = time.strftime("%dth %B, %Y - %H:%M")
     data = {
         "cars": [{
             "user_name": Car.user,
@@ -33,6 +34,7 @@ def is_crashed(Car):
 
 def is_squiggly(Car):
     time = datetime.datetime.now()
+    time = time.strftime("%dth %B, %Y - %H:%M")
     data = {
         "cars": [{
             "user_name": Car.user,
