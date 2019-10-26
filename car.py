@@ -1,7 +1,7 @@
 import status
 import random
 
-from update_json import *
+import update_json
 
 class Car(object):
 
@@ -83,7 +83,7 @@ user_name = ""
 police_number = ""
 tesla = Car(user_name, police_number)
 
-update_json.is_crashed(tesla)
+# update_json.is_crashed(tesla)
 
 # movements = generate_movements(10)
 
