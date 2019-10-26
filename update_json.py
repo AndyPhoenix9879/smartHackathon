@@ -23,7 +23,7 @@ def is_crashed(Car):
         "cars": [{
             "user_name": Car.user,
             "police_number": Car.police_number,
-            "airbag_open": True,
+            "is_crashed": True,
             "is_squiggly": False,
             "time": time,
             "x_coordinate": Car.x,
@@ -39,7 +39,7 @@ def is_squiggly(Car):
         "cars": [{
             "user_name": Car.user,
             "police_number": Car.police_number,
-            "airbag_open": False,
+            "is_crashed": False,
             "is_squiggly": True,
             "time": time,
             "x_coordinate":Car.x,
