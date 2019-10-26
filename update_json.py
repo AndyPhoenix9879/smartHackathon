@@ -2,9 +2,19 @@ import json
 import datetime 
 
 def generate_json(data):
-    with open('car.json', 'a') as outfile:
-        outfile.write(json.dumps(data, indent=4, sort_keys=True, default=str))
-    outfile.close()
+    try:
+        with open('car.json', 'r') as json_file:
+            file = json.load(json_file)
+
+        file["cars"].append(data["cars"][0])
+
+        with open('car.json', 'w') as json_file:
+            json_file.write(json.dumps(file, indent=4, default=str))
+        json_file.close()
+    except:
+        with open('car.json', 'w') as json_file:
+            json_file.write(json.dumps(data, indent=4, default=str))
+        json_file.close()
 
 def is_crashed(Car):
     time = datetime.datetime.now()

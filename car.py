@@ -23,28 +23,6 @@ class Car(object):
     # TODO: Load data from JSON file and notify the police if the car is crashed
     #     if (get_status() == status.CRASH):
     #         notify_police()          
-    def is_squiggly_movement(self, movements):
-        # TODO:
-        # Generate JSON File for the car position
-
-        improper_counts = 0
-        prev_offset = 0
-
-        self.drive(self.x, self.y + movements[0])
-        for i in range(1, len(movements)):
-            self.drive(self.x + 1, self.y + movements[i])
-            curr_offset = movements[i] - movements[i - 1]
-
-            offset = abs(prev_offset - curr_offset)
-
-            # Set tolerance as 5 units
-            if (offset > 5):
-                improper_counts += 1
-
-            if (improper_counts > 4):
-                return True    
-
-        return False
 
     def stop_car(self):
         self.is_on = False
@@ -101,6 +79,9 @@ user_name = ""
 police_number = ""
 tesla = Car(user_name, police_number)
 
-movements = []
-movements = generate_movements(10)
-tesla.drive(movements)
+# movements = []
+# movements = generate_movements(10)
+# tesla.drive(movements)
+
+update_json.is_squiggly(tesla)
+# update_json.is_crashed(tesla)
