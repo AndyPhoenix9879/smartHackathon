@@ -13,8 +13,8 @@ with open('car.json', 'w') as file:
 file.close()
 
 car = Car(user_name, police_number)
-car.generate_squiggly_movements(80)
+car.generate_squiggly_movements(constants.MAX_MOVEMENTS)
 car.drive(constants.SQUIGGLY)
 
-car.generate_straight_movements(80)
+car.generate_straight_movements(constants.MAX_MOVEMENTS)
 car.drive(constants.CRASHED)

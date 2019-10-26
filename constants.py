@@ -11,7 +11,10 @@ OBSTACLE_SIZE = (50, 70)
 # This sets the WIDTH and HEIGHT of each grid location
 WIDTH = 35
 HEIGHT = 70
- 
+
+# Set maximum randomized moves
+MAX_MOVEMENTS = 80
+
 # This sets the margin between each cell
 MARGIN = 1
  
