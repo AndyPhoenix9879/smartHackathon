@@ -25,11 +25,11 @@ body {
   color: #2c3e50;
 }
 #nav {
+  color: white;
   padding: 20px;
-  background-color: white;
-  box-shadow: 0px 6px 6px -2px rgba(0,0,0,0.30);
+  background-color: #303133;
+  box-shadow: 0px 8px 6px -2px rgba(0, 0, 0, 0.5);
   position: sticky;
   position:-webkit-sticky;
-  color: #67C23A;
 }
 </style>

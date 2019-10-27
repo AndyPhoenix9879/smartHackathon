@@ -5,8 +5,8 @@
             "police_number": "CUHK-1234",
             "is_crashed": false,
             "is_squiggly": true,
-            "time": "27th October, 2019 - 04:36",
-            "x_coordinate": 609,
+            "time": "27th October, 2019 - 09:07",
+            "x_coordinate": 604,
             "y_coordinate": 210
         },
         {
@@ -14,7 +14,7 @@
             "police_number": "CUHK-1234",
             "is_crashed": true,
             "is_squiggly": false,
-            "time": "27th October, 2019 - 04:36",
+            "time": "27th October, 2019 - 09:07",
             "x_coordinate": 620,
             "y_coordinate": 430
         },
@@ -23,9 +23,9 @@
             "police_number": "CUHK-1234",
             "is_crashed": true,
             "is_squiggly": false,
-            "time": "27th October, 2019 - 04:36",
-            "x_coordinate": 602,
-            "y_coordinate": 70
+            "time": "27th October, 2019 - 09:07",
+            "x_coordinate": 647,
+            "y_coordinate": 110
         }
     ]
 }

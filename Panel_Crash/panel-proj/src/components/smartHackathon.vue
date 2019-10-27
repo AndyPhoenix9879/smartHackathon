@@ -13,7 +13,7 @@
 
               <div>Latitude, longitude: ({{ x.x_coordinate }}, {{ x.y_coordinate }})</div>
               <div>Abnormal driving pattern : {{ x.is_squiggly }}</div>
-              <div>Crash : {{ x.airbag_open }}</div>
+              <div>Crash : {{ x.is_crashed }}</div>
 
             </el-collapse-item>
           </el-collapse>
@@ -42,7 +42,7 @@ export default {
 #bg {
   z-index: -9999;
   top: 0;
-  background-color: #67C23A;
+  background-color: #002147;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -52,15 +52,16 @@ export default {
   margin-right: 5px;
 }
 .container {
+  color: #2c3e50;
   border-radius: 15px;
-  background-color: #F2F6FC;
+  background-color: #C0C4CC;
   height: 650px;
   width: 750px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0px 0px 25px 0px rgba(82, 99, 175, 0.274);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
 }
 
 .content {
@@ -79,8 +80,5 @@ export default {
   padding: 10px;
   box-shadow: 0 0 2px 0 rgba(144,147,153,0.5);
   margin: 15px;
-}
-a {
-  color: #42b983;
 }
 </style>
